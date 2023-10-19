@@ -1,3 +1,4 @@
-Version 2 from github
-Version 3 from local
-Version 4 from Github
+# Step-1
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/ntl-githubuat
+ssh -T git@github.com
